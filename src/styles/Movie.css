@@ -1,33 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #22254b;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
+  background-color: #22254b;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .movie {
-    background-color: #373b69;
-    border-radius: 3px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    position: relative;
-    margin: 1rem;
-    width: 300px;
+  background-color: #373b69;
+  border-radius: 3px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  width: 300px;
 }
 
 .movie img {
-    width: 100%;
+  width: 100%;
 }
 
-.title, .year {
-    color: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 1rem 0.5rem 1rem;
+.title,
+.year {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+@media screen and (max-width: 1042px) {
+  .movie {
+    margin: 2% 5rem;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .movie {
+    margin: 2% 5rem;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .movie {
+    margin: 2% 5rem;
+    transform: translateX(70%);
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .movie {
+    margin: 2% 5rem;
+    transform: translateX(60%);
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .movie {
+    margin: 2% 5rem;
+    transform: translateX(40%);
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .movie {
+    transform: translateX(30%);
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .movie {
+    transform: translateX(27%);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .movie {
+    transform: translateX(20%);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .movie {
+    transform: translateX(13%);
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .movie {
+    transform: translateX(-7%);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .movie {
+    width: 200%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .movie {
+    width: 300%;
+  }
 }
